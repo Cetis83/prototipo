@@ -1,0 +1,94 @@
+{
+  "knnClassifier": {
+    "classDatasetMatrices": {
+      "0": {
+        "kept": true,
+        "isDisposedInternal": false,
+        "shape": [
+          20,
+          256
+        ],
+        "dtype": "float32",
+        "size": 5120,
+        "strides": [
+          256
+        ],
+        "dataId": {},
+        "id": 17470,
+        "rankType": "2",
+        "scopeId": 35863
+      },
+      "1": {
+        "kept": true,
+        "isDisposedInternal": false,
+        "shape": [
+          16,
+          256
+        ],
+        "dtype": "float32",
+        "size": 4096,
+        "strides": [
+          256
+        ],
+        "dataId": {},
+        "id": 57543,
+        "rankType": "2",
+        "scopeId": 120553
+      },
+      "2": {
+        "kept": true,
+        "isDisposedInternal": false,
+        "shape": [
+          10,
+          256
+        ],
+        "dtype": "float32",
+        "size": 2560,
+        "strides": [
+          256
+        ],
+        "dataId": {},
+        "id": 72119,
+        "rankType": "2",
+        "scopeId": 151355
+      }
+    },
+    "classExampleCount": {
+      "0": 20,
+      "1": 16,
+      "2": 10
+    },
+    "labelToClassId": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "nextClassId": 3,
+    "exampleShape": [
+      1,
+      256
+    ],
+    "trainDatasetMatrix": {
+      "kept": true,
+      "isDisposedInternal": false,
+      "shape": [
+        46,
+        256
+      ],
+      "dtype": "float32",
+      "size": 11776,
+      "strides": [
+        256
+      ],
+      "dataId": {},
+      "id": 72290,
+      "rankType": "2",
+      "scopeId": 151717
+    }
+  },
+  "mapStringToIndex": [
+    "Arduino",
+    "Esp8266",
+    "Nada"
+  ]
+}
