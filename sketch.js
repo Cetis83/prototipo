@@ -152,7 +152,7 @@ var Imagen = modelo.infer(capture);
           Confianza = Math.ceil(Valores[Indice]*100);
         }
 
-        if (MensajeMQTT !=result.label)
+        if (MensajeMQTT !=result.label && Confianza==100)
         {
           Texto.html("Es un: "+Etiqueta + " - " + Confianza + "%");
           MensajeMQTT=result.label;
