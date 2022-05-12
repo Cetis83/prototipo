@@ -9,18 +9,20 @@ var InputTextbox;
 var BotonTextBox;
 var CargandoNeurona=false;
 
-let BrokerMQTT='cetis.cloud.shiftr.io';
+//let BrokerMQTT='cetis.cloud.shiftr.io';
+let BrokerMQTT='boommask475.cloud.shiftr.io';
 let PuertoMQTT=1883;
 let ClienteIDMQTT="cetis";
 //let UsuarioMQTT="cetis";
 //let ContrasenaMQTT="12345678"
-let UsuarioMQTT="chipgoat996";
+//let UsuarioMQTT="chipgoat996";
+let UsuarioMQTT="boommask475";
 let ContrasenaMQTT="1234"
 let MensajeMQTT="";
 
- //var client=new Paho.Client("wss://cetis:12345678@cetis.cloud.shiftr.io/",ClienteIDMQTT);
- var client=new Paho.Client("wss://chipgoat996:1234@chipgoat996.cloud.shiftr.io/",ClienteIDMQTT);
-
+ 
+ //var client=new Paho.Client("wss://chipgoat996:1234@chipgoat996.cloud.shiftr.io/",ClienteIDMQTT);
+ var client=new Paho.Client("wss://boommask475:1234@boommask475.cloud.shiftr.io/",ClienteIDMQTT);
 client.onConnectionLost=MQTTPerder;
 client.onMessageArrived=MQTTMensaje;
 
