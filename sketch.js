@@ -58,7 +58,7 @@ function setup() {
 
   createP('Presiona los botones para entrenar');
 
-  var BotonArduino=createButton("Arduino");
+/*  var BotonArduino=createButton("Arduino");
   BotonArduino.class("BotonEntrenar");
 
   var BotonEsp8266=createButton("Esp8266");
@@ -68,7 +68,7 @@ function setup() {
   BotonEsp32.class("BotonEntrenar");
 
   var BotonNada=createButton("Nada");
-  BotonNada.class("BotonEntrenar");
+*/  BotonNada.class("BotonEntrenar");
 
   createP("Entrena usando Text Box");
   InputTextbox=createInput("Cosa 2");
